@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Nobel Prize Website</title>
+  <link rel="stylesheet" href="awds.css">
+</head> 
+<body>
+  <header >
+    <h1 style="color: black;">Nobel Prize</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#winners">Winners</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <section id="home">
+      <h2 style="color: black;">Welcome to the Nobel Prize Website!</h2>
+      <p>Learn about the prestigious Nobel Prize and its winners.</p>
+    </section>
+    
+    <section id="about">
+      <h2 style="color: black;">About the Nobel Prize</h2>
+      <p>Nobel Prize, any of the prizes (five in number until 1969, when a sixth was added) that are awarded annually from a fund bequeathed for that purpose by the Swedish inventor and industrialist Alfred Nobel. The Nobel Prizes are widely regarded as the most prestigious awards given for intellectual achievement in the world. To browse Nobel Prize winners alphabetically, chronologically, and by prize, see below.
+
+        The reverse side of the Nobel Prize medal awarded for both Physics and Chemistry.
+        The reverse side of the Nobel Prize medal awarded for both Physics and Chemistry.
+        In the will he drafted in 1895, Nobel instructed that most of his fortune be set aside as a fund for the awarding of five annual prizes “to those who, during the preceding year, shall have conferred the greatest benefit on mankind.” These prizes as established by his will are the Nobel Prize for Physics, the Nobel Prize for Chemistry, the Nobel Prize for Physiology or Medicine, the Nobel Prize for Literature, and the Nobel Prize for Peace. The first distribution of the prizes took place on December 10, 1901, the fifth anniversary of Nobel’s death.</p>
+      <p>Include more information about the history, categories, etc.</p>
+    </section>
+    
+    <section id="winners">
+      <h2 style="color: black;">Nobel Prize Winners</h2>
+      <p style="color: black;">List of winners by category:</p>
+      <ul id="winnersList">
+        <li style="font-size: 30px; color: black;">Chemistry</li>
+        
+      </ul>
+    </section>
+    <section id="winners1">
+      <ul id="winnersList1">
+        <li style="font-size: 30px;color: black;">Physics</li>
+        
+      </ul>
+    </section>
+    <section id="winners2">
+      <ul id="winnersList2">
+        <li style="font-size: 30px;color: black;">Biology</li>
+        
+      </ul>
+    </section>
+    <div class="container">
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>Reach out to us for more information:</p>
+      <form id="contactForm">
+        <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="india">India</option>
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+      </form>
+    </section></div>
+  </main>
+  
+  <footer class="footer-nav">
+    <p>&copy; 2023 Nobel Prize Website</p>
+  </footer>
+
+  <script src="nobel.js"></script>
+</body>
+</html>
